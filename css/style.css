@@ -1,0 +1,110 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
+.navbar {
+  border-bottom: 6px solid #505050;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.word-border {
+  border-bottom: 2px solid #505050;
+}
+
+#intro img {
+  height: 160px;
+  width: 160px;
+  border: 2px solid #505050;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#skills {
+  background-color: #e6e6e6;
+}
+
+.img-icon {
+  height: 120px;
+  width: 120px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 768px) {
+  .col-icons {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.card {
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+.card .card-header {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card .card-body {
+  height: 200px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .card .card-body {
+    font-size: 12px;
+  }
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #skills {
+    font-size: 6.5px;
+  }
+  #skills h2 {
+    font-size: 11px;
+  }
+}
+
+.checked {
+  color: #b69400;
+}
+
+.fa {
+  size: 20px;
+}
+
+.badge {
+  margin-bottom: 3px;
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .badge {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
